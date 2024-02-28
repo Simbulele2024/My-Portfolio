@@ -51,6 +51,7 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+    justify-content: space-between;
 }
 .header-text{
     margin-top: 20%;
