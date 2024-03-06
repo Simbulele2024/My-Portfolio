@@ -4,14 +4,17 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 body{
-    background: #070707;
     color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(background.jpg);
+    background-image: url(back.jpg);
     background-size: contain;
     background-position: center;
 }
@@ -34,7 +37,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color: #fff;
+    color: #faf7f7;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -57,15 +60,17 @@ nav ul li a:hover::after{
     margin-top: 20%;
     font-size: 30px;
     margin-bottom: 15%;
+    color: white;
 }
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    color: white;
 }
 /*-------about-------*/
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #0a0a0a;
 }
 .row{
     display: flex;
@@ -78,6 +83,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    image-resolution: 90%;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -119,4 +125,196 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+.header-text3{
+    margin-top: 20%;
+    font-size: 30px;
+    margin-bottom: 15%;
+    color: #faf7f7;
+    text-align: center;
+}
+.about-col-3{
+    flex-basis: 60%;
+    font-size: x-large;
+    color: #f8f8f8;
+}
+#header2{
+    width: 100%;
+    height: 80vh;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    position: absolute;
+    bottom: 100;
+    left: 0;
+    z-index: 80;
+    color: #0a0a0a;
+}
+/*----------services--------*/
+#services{
+    padding: 30px 0;
+    color: #faf7f7;
+}
+.serves-list{
+    display: grid;
+    color: #faf7f7;
+}
+.sub-title{
+    color: #f8f8f8;
+}
+.card {
+    box-shadow: 0 4px 8px 0 #ffffff;
+    transition: 0.3s;
+    margin: 10px;
+    background-color: #bbb;
+    float: left;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(121, 121, 170);
+  }
+  
+  .box {
+    padding: 2px 16px;
+    color: black;
+    float: right;
+    margin-right: 30%;
+  }
+
+.grid{
+    display: grid;
+        gap: 6em;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 1fr;
+        padding-bottom: 100%;
+    }
+    .w3-animate-right
+{position:relative;animation:animateright 10s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .a{
+    text-decoration: #0a0a0a;
+  }
+  .header-text4{
+    margin-top: 20%;
+    font-size: 30px;
+    margin-bottom: 15%;
+    color: #1a1919;
+    margin-right: 5px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*Instagram*/
+.fa-Instagram{
+    background:#f9ce34,#ee2a7b,#6228d7;
+    color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    text-align:center ;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #e0c3c3;
+    color: black;
+  }
+  
+  .flip-card-back {
+    color: rgb(3, 3, 3);
+    transform: rotateY(180deg);
+    text-align: center;
+    text-size-adjust: 30%;
+  }
+  .sub-title1{
+    color: #0a0a0a;
+  }
+  .footer{
+    color: #0a0a0a;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #070707;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
 }

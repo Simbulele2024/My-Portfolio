@@ -8,8 +8,8 @@
     </head>
     <body>
         <div id="header">
-            <div class="container">
-             <nav>
+         <div class="container">
+            <nav>
                 <img src="logo2.png" width="80" height="40" class="logo">
                  <ul>
              <li> <a href="index.html">Home</a></li>
@@ -18,11 +18,11 @@
               <li><a href="contacts.html">Contacts</a></li>
               <li><a href="services.html">Services</a></li>
 
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>WEB Designer</p>
-            <h1>Hi, I'm Simbulele Tauzeni I am a Web Developer from Cape Town, Western Cape</h1>
+              </ul>
+           </nav>
+         <div class="header-text">
+            <p class="w3-animate-right">WEB Designer</p>
+            <h1 class="w3-animate-right">Hi, I'm Simbulele Tauzeni I am a Web Developer from Cape Town, Western Cape</h1>
         </div>
     </div><br><br><br><br>
     <!------about--------->
@@ -30,19 +30,19 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="Simbulele.jfif" height="400">
+                        <img src="IMG-.jpg" height="400">
                     </div>
                         <div class="about-col-2">
-                            <h1 class="sub-title">About me</h1>
+                            <h1 class="sub-title1">ABOUT ME</h1><br><br>
                             <p>Hello,I'm Simbulele Tauzeni, a dedicated Software and Automation Tester.<br>
-                            I graduated Walter Sisuli University and I honed my skills at Capaciti where <br>
+                            I graduated  from Walter Sisuli University and I honed my skills at Capaciti where <br>
                             I gained solid foundation in testing methodologies. Completmenting my technical expertise,<br>
                              I also delved into Leadership studies at the Aspire Institute, a Harvard Business School-founded Institute<br>
-                            I thrive on delivering effecient, quality solutions in the dtnamic realm of software testing </p>
+                            I thrive on delivering effecient, quality solutions in the dynamic realm of software testing </p>
                             <div class="tab-titles">
                                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                                 <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
-                                <p class="tab-links active-link" onclick="opentab('Education)">Education</p>
+                                <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
                             </div>
                             <div class="tab-contents active-tab" id="skills">
                                 <ul> <li><span>HTML & CSS</span><br>Create webpages/applications</li>
@@ -63,9 +63,28 @@
                                 </ul>
                             </div>
                     </div>
-                </div> ,
+                </div> 
             </div>
          </div>
-    
+         <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classList.remove(active-links);
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classList.remove(active-tab);
+                }
+            }
+
+         </script>
+    <footer>All rights Reserved
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+    </div> 
+</footer>
     </body>
  </html>
