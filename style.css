@@ -6,18 +6,22 @@
 }
 
 body{
-    color: #fff;
+    color: #161515;
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
+    background-color: #424f58;
+    
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(back.jpg);
+    background-image: url(R\ \(2\).jfif);
     background-size: contain;
     background-position: center;
+    color: #fffcfc;
 }
+
 .container{
     padding: 10px 10%;
 }
@@ -27,6 +31,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #94d3d8d3;
+    min-height: 70px;
 }
 .logo{
     width: 140px;
@@ -60,17 +66,17 @@ nav ul li a:hover::after{
     margin-top: 20%;
     font-size: 30px;
     margin-bottom: 15%;
-    color: white;
+    color: rgb(245, 241, 241);
 }
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
-    color: white;
+    color: rgb(250, 249, 249);
 }
 /*-------about-------*/
 #about{
     padding: 80px 0;
-    color: #0a0a0a;
+    color: #fff9f9;
 }
 .row{
     display: flex;
@@ -136,22 +142,9 @@ nav ul li a:hover::after{
 .about-col-3{
     flex-basis: 60%;
     font-size: x-large;
-    color: #f8f8f8;
+    color: #fcfafa;
 }
-#header2{
-    width: 100%;
-    height: 80vh;
-    background-image: url(back.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.footer{
-    position: absolute;
-    bottom: 100;
-    left: 0;
-    z-index: 80;
-    color: #0a0a0a;
-}
+
 /*----------services--------*/
 #services{
     padding: 30px 0;
@@ -170,6 +163,8 @@ nav ul li a:hover::after{
     margin: 10px;
     background-color: #bbb;
     float: left;
+    size-adjust: 100%;
+    margin-left: 80px;
   }
   
   .card:hover {
@@ -180,7 +175,8 @@ nav ul li a:hover::after{
     padding: 2px 16px;
     color: black;
     float: right;
-    margin-right: 30%;
+    margin-right: 80px;
+    margin-left: 50%;
   }
 
 .grid{
@@ -231,31 +227,29 @@ nav ul li a:hover::after{
     background: #55ACEE;
     color: white;
 }
-/*Instagram*/
-.fa-Instagram{
-    background:#f9ce34,#ee2a7b,#6228d7;
-    color: white;
-}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
   .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
     text-align:center ;
+    margin-top: 3px;
   }
   
   .flip-card-inner {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 80%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    align-items: center;
   }
   
   .flip-card:hover .flip-card-inner {
@@ -271,7 +265,7 @@ body {
   }
   
   .flip-card-front {
-    background-color: #e0c3c3;
+ 
     color: black;
   }
   
@@ -282,10 +276,11 @@ body {
     text-size-adjust: 30%;
   }
   .sub-title1{
-    color: #0a0a0a;
+    color: #faf5f5;
   }
   .footer{
     color: #0a0a0a;
+    background-color:#94d3d8d3;
   }
   body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
@@ -317,4 +312,30 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 10px;
+}
+a {
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style the button */
+button {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    f
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh; /* Set the height to fill the viewport */
 }
