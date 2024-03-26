@@ -82,6 +82,8 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #fff9f9;
+    height: 100vh;
+    margin-top: 0%;
 }
 .row{
     display: flex;
@@ -334,7 +336,7 @@ input[type=submit]:hover {
   margin: 10px;
 }
 a {
-    text-decoration: none; /* Remove underline */
+    text-decoration: blue; /* Remove underline */
 }
 
 /* Style the button */
@@ -395,6 +397,8 @@ button {
     position: relative;
     justify-content: center;
     text-align: center;
+    height: 100vh;
+    margin-bottom: 0%;
 
 }
 .Projects{
@@ -411,4 +415,42 @@ html, body {
 }
 .inframe{
     position: relative;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+}
+#form{
+    size-adjust: 80%;
+    position: relative;
+}
+/* The flip card container */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Add 3D effect (optional) */
+    margin: 15px;
+    border-radius: 10%;
+}
+
+/* Container for positioning front and back sides */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background-color: white;
+    font-size: smaller;
+    border-radius: 10%;
+}
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    margin: 30px;
+    padding: 3em;
+
 }

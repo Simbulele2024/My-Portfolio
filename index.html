@@ -3,6 +3,7 @@
     <head>
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css">
  </head>
@@ -31,16 +32,19 @@
         </a>
        </div>  
         </div>
+        
         <!--------Projects-------->
-
+        
+ 
         <div id="Projects">
             <h1>Previous Projects</h1>
             <h2>Konnect</h2>
            
-        </div>
-        <iframe src="https://sinazod.github.io/KONNECT.WEBSITE/WEBSITE/" width="100%" height="300"  style="border:none;">
-        </iframe>
+        
+          <iframe src="https://sinazod.github.io/KONNECT.WEBSITE/WEBSITE/" width="100%" height="300"  style="border:none;">
+          </iframe>
      </div>
+   </div>
      <!------about--------->
          <div id="about">
             <div class="container">
@@ -105,5 +109,18 @@
        </div>
         </div> 
      </div>
+     <script>
+     window.onscroll = function() {
+        scrollFunction();
+    };
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+    }
+    </script>
   </body>  
  </html>
