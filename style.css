@@ -14,6 +14,7 @@ body{
     background-image: url(h8BUqx.webp);
     background-size: cover;
     position: relative;
+    color: #fffcfc;
 }
 #header{
     width: 100%;
@@ -82,9 +83,10 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #fff9f9;
-    height: 100vh;
-    margin-top: 0%;
-    margin: 0;
+    height: 90vh;
+    margin-top: 0em;
+    margin: 0em;
+    
 }
 .row{
     display: flex;
@@ -160,6 +162,9 @@ nav ul li a:hover::after{
 #services{
     padding: 30px 0;
     color: #faf7f7;
+    margin: 30px;
+    margin-top: 0px;
+    margin-inline-start: 30px;
 }
 .serves-list{
     display: grid;
@@ -168,6 +173,8 @@ nav ul li a:hover::after{
 .sub-title{
     color: #f8f8f8;
     position: relative;
+    text-align: center;
+
 }
 .card {
     box-shadow: 0 4px 8px 0 #ffffff;
@@ -402,7 +409,7 @@ button {
     position: relative;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height: 80vh;
     margin-bottom: 0%;
 
 }
@@ -421,9 +428,10 @@ html, body {
 .inframe{
     position: relative;
 }
-section {
+.section {
     padding: 20px;
     margin: 20px;
+    text-decoration: white;
 }
 #form{
     size-adjust: 80%;
