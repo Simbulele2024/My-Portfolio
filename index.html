@@ -65,28 +65,32 @@
                             I thrive on delivering effecient, quality solutions in the dynamic realm of software testing </p>
                          </div>
                    
-                            <div class="tab-titles">
-                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                                <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
-                                <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
-                            </div>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
                             <div class="tab-contents active-tab" id="skills">
                                 <ul> <li><span>HTML & CSS</span><br>Create webpages/applications</li>
                                     <li><span>Python</span><br>Data Visualization</li>
                                     <li><span>Enterprise Architecture</span><br>System modeling and design tools</li>
                                     <li><span>Cyber Security</span><br>Vulnerability Assessment</li>
+                                    <li><span>MongoDB, SQL & Snowflake, </span><br>Database management</li>
                                 </ul>
                             </div>
                             <div class="tab-contents" id="Experience">
-                                <ul> <li><span>HTML & CSS</span><br>Create webpages/applications</li>
-                                    <li><span>Python</span><br>Data Visualization</li>
-                                    <li><span>App Development</span><br>BUILDING iOS</li>
+                                <ul> <li><span>CAPACITI</span><br>Software Development and Automation testing </li>
+                                    <li><span>IFORITWORLD </span><br>Marketing and sales</li>
+                                    <li><span>Ennovators </span><br>System Development </li>
                                 </ul>
                             </div>
                             <div class="tab-contents" id="Education">
-                                <ul> <li><span>HTML & CSS</span><br>Create webpages/applications</li>
-                                    <li><span>Python</span><br>Data Visualization</li>
-                                    <li><span>App Development</span><br>BUILDING iOS</li>
+                                <ul> <li><span>Walter Sisulu University</span><br>Diploma ICT Support Services</li>
+                                    <li><span>Simplilearn</span><br>CISSP Information System Security Professional</li>
+                                    <li><span>Simplilearn</span><br>TOGAF 9 combine level 1 & 2.</li>
+                                    <li><span>CISCO Networking Academy</span><br>Junior Cybersecurity Analyst</li>
+                                    <li><span>CISCO Networking Academy</span><br>CCNAV7 Introduction to Networks</li>
+                                    <li><span>Aspire Institute</span><br>Aspire Leaders Program  </li>
                                 </ul>
                             </div>
                     </div>
@@ -112,6 +116,22 @@
         </div> 
      </div>
      <script>
+        function opentab(tabName) {
+        var i, tabContents, tabLinks;
+
+        tabContents = document.getElementsByClassName("tab-contents");
+        for (i = 0; i < tabContents.length; i++) {
+            tabContents[i].classList.remove("active-tab");
+        }
+
+        tabLinks = document.getElementsByClassName("tab-links");
+        for (i = 0; i < tabLinks.length; i++) {
+            tabLinks[i].classList.remove("active-link");
+        }
+
+        document.getElementById(tabName).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
      window.onscroll = function() {
         scrollFunction();
     };
@@ -124,5 +144,6 @@
         }
     }
     </script>
+    
   </body>  
  </html>
