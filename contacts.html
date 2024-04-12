@@ -101,26 +101,26 @@
 
 <script>
     document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
+        event.preventDefault(); 
         
-        // Gather form inputs
+        
         var firstName = document.getElementById('fname').value;
         var lastName = document.getElementById('lname').value;
         var inquiry = document.getElementById('Inquiry').value;
         var message = document.getElementById('subject').value;
 
-        // Construct the email body
+        
         var body = 'First Name: ' + firstName + '\n' +
                    'Last Name: ' + lastName + '\n' +
                    'Inquiry: ' + inquiry + '\n' +
                    'Message: ' + message;
 
-        // Construct the mailto link
+        
         var emailTo = 'Simbulele.tauzeni@gmail.com';
         var subject = 'New Inquiry';
         var mailtoLink = 'mailto:' + emailTo + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
         
-        // Open the default email client with the mailto link
+
         window.open(mailtoLink);
     });
 </script>
