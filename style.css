@@ -224,7 +224,7 @@ nav ul li a:hover::after{
     color: #1a1919;
     margin-right: 5px;
 }
-/* Style all font awesome icons */
+/* font icons */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -233,23 +233,22 @@ nav ul li a:hover::after{
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+
 .fa:hover {
     opacity: 0.7;
 }
-
-/* Facebook */
+/*
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
 
-/* Twitter */
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
-
+*/
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -264,7 +263,7 @@ body {
     text-align:center ;
     margin-top: 3px;
   }
-  
+  */
   .flip-card-inner {
     display: flex;
     flex-direction: row;
@@ -353,7 +352,54 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
+  .container {
+    max-width: 50%; /* Adjust the width to make the form half the size */
+    margin: auto; /* Center the form horizontally */
+  }
+  
+  form {
+    padding: 20px; /* Add some padding for better spacing */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  form label {
+    display: block; /* Make labels display as block elements */
+    margin-bottom: 5px; /* Add some bottom margin for spacing */
+  }
+  
+  form input[type="text"],
+  form select,
+  form textarea {
+    width: 100%; /* Make inputs and select full width */
+    padding: 8px; /* Add padding for better appearance */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    border: 1px solid #ccc; /* Add border for input fields */
+    border-radius: 3px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  form textarea {
+    height: 100px; /* Set a fixed height for the textarea */
+  }
+  
+  form button[type="submit"] {
+    width: 90%; /* Make the submit button full width */
+    padding: 10px; /* Add padding for better appearance */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 3px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+  /* Style the submit button on hover */
+  form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
 }
+
 a {
     text-decoration: blue; /* Remove underline */
 }
@@ -483,4 +529,11 @@ html, body {
 .element {
     margin: 0;
     padding: 10px;
+}
+.contactform{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    
 }
