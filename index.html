@@ -1,152 +1,115 @@
 <!DOCTYPE html>
- <html lang="en-US">
-    <head>
-            <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
- </head>
-    <body>
-        
-        <div id="header">
-         <div class="container">
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
             <nav>
-                <img src="logo2.png" width="80" height="40" class="logo">
-                <div id="navbar-menu" aria-labelledby="navbar-toggle"></div>
-                <ul>
-                 <li> <a href="index.html">Home</a></li>
-                 <li><a href="projects.html">Projects</a></li>
-                 <li><a href="contacts.html">Contacts</a></li>
-                  <li><a href="services.html">Services</a></li>
-
-              </ul>
-           </nav>
-         <div class="header-text">
-            
-            <h1 class="w3-animate-right">Hi, I'm Simbulele Tauzeni I am a Web Developer from Cape Town, Western Cape</h1><br><br>
-            <div class="center-container">
-         <a href="Simbulele Tauzeni.pdf" download="Simbulele Tauzeni CV">
-            <button>Download CV</button>
-        </a><br>
-        <a href="contacts.html" Hire="Simbulele Tauzeni CV">
-            <button>HIRE ME</button>
-        </a>
-       </div>  
-        </div>
-        
-        <!--------Projects-------->
-        
- 
-        <div id="Projects">
-            <h1>Previous Projects</h1>
-            <h2>Konnect</h2>
-           
-        
-          <iframe src="https://sinazod.github.io/KONNECT.WEBSITE/WEBSITE/" width="100%" height="500"  style="border:none;">
-          </iframe>
-     </div>
-   </div>
-     <!------about--------->
-         <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="LS20240307095323.png" height="400px">
-                    </div>
-                        <div class="about-col-2">
-                            <div class="my-text">
-                        
-                             <h1 class="sub-title1">ABOUT ME</h1><br><br>
-                            <p>Hello,I'm Simbulele Tauzeni, a motivated and experienced Software Tester with expertise in analyzing system requirements .<br>
-                            creating test plans, and executing functinal, regression, usability, and exploratory testing to ensure software quality <br>
-                            I have hands-on experiance with tools like JIRA, X-RAY,ALM, BIZAGI,BANCS, FE and Selenium for defect logging and test management<br>
-                            Certified in AWS Cloud Practitioner and CISSP, I bring strong programming skills in Python, C++, JavaScript, and SQL.
-                            I excel in collaborating with cross-functional teams, maintaining thorough documentation, and delivering high-quality software solutions in fast-paced environments. <br>
-                            With a passion for innovation and problem-solving, <br>I’m currently building a project-based learning platform to help professionals gain real-world tech skills. </p>
-                         </div>
-                   
-                         <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('Education')">Education</p>
-                        </div>
-                            <div class="tab-contents active-tab" id="skills">
-                                <ul> <li><span>HTML,CSS,JavaScript & Java</span><br>Create webpages/applications</li>
-                                    <li><span>Python</span><br>Data Visualization</li>
-                                    <li><span>Enterprise Architecture</span><br>System modeling and design tools</li>
-                                    <li><span>Cyber Security</span><br>Vulnerability Assessment</li>
-                                    <li><span>MongoDB, SQL & Snowflake, </span><br>Database management</li>
-                                </ul>
-                            </div>
-                            <div class="tab-contents" id="Experience">
-                                <ul> <li><span>Old Mutual</span><br>Automation testing and Manual testing</li>
-                                 <li><span>CAPACITI</span><br>Software Development and Automation testing </li>
-                                    <li><span>IFORITWORLD </span><br>Marketing and sales</li>
-                                    <li><span>Ennovators </span><br>System Development </li>
-                                </ul>
-                            </div>
-                            <div class="tab-contents" id="Education">
-                                <ul><li><span>AWS</span><br>Certified Cloud Practitioner</li>
-                                 <li><span>Walter Sisulu University</span><br>Diploma ICT Support Services</li>
-                                    <li><span>Simplilearn</span><br>CISSP Information System Security Professional</li>
-                                    <li><span>Simplilearn</span><br>TOGAF 9 combine level 1 & 2.</li>
-                                    <li><span>CISCO Networking Academy</span><br>Junior Cybersecurity Analyst</li>
-                                    <li><span>CISCO Networking Academy</span><br>CCNAV7 Introduction to Networks</li>
-                                    <li><span>Aspire Institute</span><br>Aspire Leaders Program  </li>
-                                </ul>
-                            </div>
-                    </div>
-                </div> 
+                <img src="logo2.png" width="80" height="40" class="logo" alt="Logo">
+                <ul id="navbar-menu" aria-labelledby="navbar-toggle">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1 class="w3-animate-right">Hi, I'm Simbulele Tauzeni, a Web Developer from Cape Town, Western Cape</h1>
+                <div class="center-container">
+                    <a href="Simbulele_Tauzeni.pdf" download="Simbulele_Tauzeni_CV">
+                        <button>Download CV</button>
+                    </a>
+                    <a href="contacts.html">
+                        <button>HIRE ME</button>
+                    </a>
+                </div>
             </div>
-         </div>
-   
-     <div class="footer"><h5>All rights Reserved
-           <div class="w3-row-padding">
-             <div class="w3-third">
-             <a href="https://github.com/Simbulele2024">
-               <img src="github.png" alt="github Icon"height="40">
-               </a>
-                <a href="https://www.instagram.com/simbulele_tauzeni?igsh=b2h3eHJ3c2o1MG5v">
-                <img src="instagram.png" alt="instagram Icon"height="40">
-                </a>
-                <a href="https://wa.me/qr/GDDQ3S6IMNGFB1">
-                <img src="whatsapp.png" alt="whatsapp Icon"height="40">
-                </a>
-                </h5>
         </div>
-       </div>
-        </div> 
-     </div>
-     <script>
-        function opentab(tabName) {
-        var i, tabContents, tabLinks;
+    </header>
 
-        tabContents = document.getElementsByClassName("tab-contents");
-        for (i = 0; i < tabContents.length; i++) {
-            tabContents[i].classList.remove("active-tab");
+    <section id="projects">
+        <h1>Previous Projects</h1>
+        <h2>Konnect</h2>
+        <iframe src="https://sinazod.github.io/KONNECT.WEBSITE/WEBSITE/" width="100%" height="500" style="border:none;"></iframe>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="LS20240307095323.png" height="400px" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title1">ABOUT ME</h1>
+                    <p>Hello, I'm Simbulele Tauzeni, a motivated and experienced Software Tester specializing in analyzing system requirements...</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML, CSS, JavaScript & Java</span> - Web Development</li>
+                            <li><span>Python</span> - Data Visualization</li>
+                            <li><span>Cyber Security</span> - Vulnerability Assessment</li>
+                            <li><span>SQL, MongoDB, Snowflake</span> - Database Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Old Mutual</span> - Automation & Manual Testing</li>
+                            <li><span>CAPACITI</span> - Software Development & Testing</li>
+                            <li><span>IFORITWORLD</span> - Marketing & Sales</li>
+                            <li><span>Ennovators</span> - System Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>AWS</span> - Certified Cloud Practitioner</li>
+                            <li><span>Walter Sisulu University</span> - Diploma ICT Support Services</li>
+                            <li><span>Simplilearn</span> - CISSP Information Security</li>
+                            <li><span>CISCO Networking Academy</span> - Cybersecurity Analyst</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h5>All Rights Reserved</h5>
+        <div class="social-links">
+            <a href="https://github.com/Simbulele2024">
+                <img src="github.png" alt="GitHub" height="40">
+            </a>
+            <a href="https://www.instagram.com/simbulele_tauzeni?igsh=b2h3eHJ3c2o1MG5v">
+                <img src="instagram.png" alt="Instagram" height="40">
+            </a>
+            <a href="https://wa.me/qr/GDDQ3S6IMNGFB1">
+                <img src="whatsapp.png" alt="WhatsApp" height="40">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(tabName) {
+            document.querySelectorAll('.tab-contents').forEach(tab => tab.classList.remove('active-tab'));
+            document.querySelectorAll('.tab-links').forEach(link => link.classList.remove('active-link'));
+            document.getElementById(tabName).classList.add('active-tab');
+            event.currentTarget.classList.add('active-link');
         }
 
-        tabLinks = document.getElementsByClassName("tab-links");
-        for (i = 0; i < tabLinks.length; i++) {
-            tabLinks[i].classList.remove("active-link");
-        }
-
-        document.getElementById(tabName).classList.add("active-tab");
-        event.currentTarget.classList.add("active-link");
-    }
-     window.onscroll = function() {
-        scrollFunction();
-    };
-    
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-50px";
-        }
-    }
+        window.onscroll = function() {
+            let navbar = document.getElementById("navbar");
+            navbar.style.top = (document.documentElement.scrollTop > 20) ? "0" : "-50px";
+        };
     </script>
-    
-  </body>  
- </html>
+</body>
+</html>
+
